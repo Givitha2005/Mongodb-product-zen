@@ -1,0 +1,32 @@
+db.mentors.insertMany([
+  {
+    id: 1,
+    mentor_name: "Mark Zuckerberg",
+    email_id: "markzuckerberg.yahoo.in",
+    no_of_student: 10
+  },
+  {
+    id: 2,
+    mentor_name: "Jeff Bezos",
+    email_id: "jeffbezos.yahoo.in",
+    no_of_student: 20
+  },
+  {
+    id: 3,
+    mentor_name: "Tim Cook",
+    email_id: "timcook.yahoo.in",
+    no_of_student: 25
+  },
+  {
+    id: 4,
+    mentor_name: "Reed Hastings",
+    email_id: "reedhastings.yahoo.in",
+    no_of_student: 15
+  },
+  {
+    id: 5,
+    mentor_name: "Sundar Pichai",
+    email_id: "sundarpichai.gmail.com",
+    no_of_student: 20
+  }
+]);

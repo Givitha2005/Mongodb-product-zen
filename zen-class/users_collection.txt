@@ -1,0 +1,37 @@
+db.users.insertMany([
+    {
+    user_id: 1,
+    user_name: "Ganesh",
+    email_id: "ganesh@gmail.com",
+    batch_no: 36,
+    codekata_solved: [10,25,50]
+  },
+  {
+    user_id: 2,
+    user_name: "Dinesh",
+    email_id: "dinesh@gmail.com",
+    batch_no: 35,
+    codekata_solved: [10,25,50]
+  },
+  {
+    user_id: 3,
+    user_name: "Magesh",
+    email_id: "magesh@gmail.com",
+    batch_no: 36,
+    codekata_solved: [10,25,50,75,100]
+  },
+  {
+    user_id: 4,
+    user_name: "Ramesh",
+    email_id: "ramesh@gmail.com",
+    batch_no: 35,
+    codekata_solved: [75,100]
+  },
+  {
+    user_id: 5,
+    user_name: "Suresh",
+    email_id: "suresh@gmail.com",
+    batch_no: 35,
+    codekata_solved: [50, 100]
+  }
+    ])
